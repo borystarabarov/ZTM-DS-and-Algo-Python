@@ -44,14 +44,14 @@ def findNemo (array):
     for i in range(len(array)):   
         if array[i] == 'nemo':
             print('Found Nemo')   # O(n)
-            w = a + b + c         # O(n)
+            w = 1 + 3 + 5         # O(n)
 
     for i in range(len(array) - 5):   
         print('Found Nemo')   # O(n)
-        w = a + b + c         # O(n)
-        w = a + b + c         # O(n)
+        w = w + 3         # O(n)
+        w = w +1         # O(n)
 
     a = 0     # O(1)
-    b = a + b + c     # O(1)
+    b = w + a     # O(1)
 
 findNemo (array2)   # Time Complexity  O(n + n + n + n + n + 1 + 1) -> O(5n + 2) -> O(5n) -> O(n) - Linear (One Loop)
