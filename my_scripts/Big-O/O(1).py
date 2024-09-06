@@ -12,4 +12,7 @@ def findNemo2 (array):
     t1 = time.time()
     print(f'Time taken = {t1-t0}')
 
-findNemo2 (array2)   # O(2) --> O(1) - Constant (constant number of statements)
+findNemo2 (array2)   
+
+#### Time Complexity O(2) --> O(1) - Constant (constant number of statements)
+#### Space Complexity O(1) -> Constant
