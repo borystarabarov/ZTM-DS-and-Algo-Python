@@ -1,12 +1,12 @@
 class Rectangle:
     def __init__(self, length=1, breadth=1) -> None:
-
+# Instance variables 
         self.length = length
         self.breadth = breadth
-
+# Instance Method is dependent on instance variables 
     def area(self):
         return self.length * self.breadth
-    
+# Instance Method is dependent on instance variables     
     def perimeter(self):
         return 2*(self.length + self.breadth)
     
@@ -43,3 +43,7 @@ t2 = Test2()
 t2.func()
 t2.var3 = [1,2,3,4,5]
 print('t2      :', dir(t2))
+
+
+# var1, var2, var3, var4 are the Instance variables
+# func() is an Instance Method
