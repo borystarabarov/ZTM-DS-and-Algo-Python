@@ -3,8 +3,8 @@ class Customer:  # Parent class
 
         self.cust_id = cust_id
         self.cust_name = cust_name
-        self.ship_addr = self.Address(ship_addr, ship_city, ship_country) # Inner class is used to define an attribute of a Parent class
-        self.bill_addr = self.Address(bill_addr, bill_city, bill_country) # Inner class is used to define an attribute of a Parent class
+        self.ship_addr = self.Address(ship_addr, ship_city, ship_country) # Inner class instance is used to define an attribute of a Parent class
+        self.bill_addr = self.Address(bill_addr, bill_city, bill_country) # Inner class instance is used to define an attribute of a Parent class
 
 
     class Address: # Inner class
